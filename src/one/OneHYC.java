@@ -1,8 +1,8 @@
-package two;
+package one;
 
 import java.util.HashMap;
 
-public class TwoHYC {
+public class OneHYC {
     public static void main(String[] args) {
         Solution s1 = new Solution();
         int[] iii = s1.twoSum(new int[]{2, 7, 11, 15}, 9);
