@@ -10,19 +10,19 @@ public class P144 {
     }
 }
 
-class Solution {
-    public List<Integer> preorderTraversal(TreeNode root) {
-        ArrayList arrl1 = new ArrayList();
-        helper(root,arrl1);
-        return arrl1;
-    }
-
-    public void helper(TreeNode node, ArrayList arr) {
-        if (node == null) {
-            return;
-        }
-        arr.add(node.val);
-        helper(node.left,arr);
-        helper(node.right,arr);
-    }
-}
+//class Solution {
+//    public List<Integer> preorderTraversal(TreeNode root) {
+//        ArrayList arrl1 = new ArrayList();
+//        helper(root,arrl1);
+//        return arrl1;
+//    }
+//
+//    public void helper(TreeNode node, ArrayList arr) {
+//        if (node == null) {
+//            return;
+//        }
+//        arr.add(node.val);
+//        helper(node.left,arr);
+//        helper(node.right,arr);
+//    }
+//}
